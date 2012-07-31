@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E27EEDC15C6801500B36A2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E27EEDB15C6801500B36A2A /* UIKit.framework */; };
+		6E27EEDE15C6801500B36A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E27EEDD15C6801500B36A2A /* Foundation.framework */; };
+		6E27EEE015C6801500B36A2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E27EEDF15C6801500B36A2A /* CoreGraphics.framework */; };
+		6E27EEE615C6801500B36A2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E27EEE415C6801500B36A2A /* InfoPlist.strings */; };
+		6E27EEE815C6801500B36A2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27EEE715C6801500B36A2A /* main.m */; };
+		6E27EEEC15C6801500B36A2A /* NOKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27EEEB15C6801500B36A2A /* NOKAppDelegate.m */; };
+		6E27EEEF15C6801500B36A2A /* NOKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27EEEE15C6801500B36A2A /* NOKViewController.m */; };
+		6E27EEF215C6801500B36A2A /* NOKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E27EEF015C6801500B36A2A /* NOKViewController.xib */; };
+		6E27EEFB15C6806A00B36A2A /* beach3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E27EEF815C6806A00B36A2A /* beach3.jpg */; };
+		6E27EEFC15C6806A00B36A2A /* beach2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E27EEF915C6806A00B36A2A /* beach2.jpg */; };
+		6E27EEFD15C6806A00B36A2A /* beach1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E27EEFA15C6806A00B36A2A /* beach1.jpg */; };
+		6E27EF0315C6827A00B36A2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E27EF0215C6827A00B36A2A /* QuartzCore.framework */; };
+		6E27EF0715C69C1700B36A2A /* mask2a.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E27EF0615C69C1700B36A2A /* mask2a.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E27EED715C6801500B36A2A /* ScrollerMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollerMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E27EEDB15C6801500B36A2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E27EEDD15C6801500B36A2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E27EEDF15C6801500B36A2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E27EEE315C6801500B36A2A /* ScrollerMask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollerMask-Info.plist"; sourceTree = "<group>"; };
+		6E27EEE515C6801500B36A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E27EEE715C6801500B36A2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E27EEE915C6801500B36A2A /* ScrollerMask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollerMask-Prefix.pch"; sourceTree = "<group>"; };
+		6E27EEEA15C6801500B36A2A /* NOKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOKAppDelegate.h; sourceTree = "<group>"; };
+		6E27EEEB15C6801500B36A2A /* NOKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOKAppDelegate.m; sourceTree = "<group>"; };
+		6E27EEED15C6801500B36A2A /* NOKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOKViewController.h; sourceTree = "<group>"; };
+		6E27EEEE15C6801500B36A2A /* NOKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOKViewController.m; sourceTree = "<group>"; };
+		6E27EEF115C6801500B36A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NOKViewController.xib; sourceTree = "<group>"; };
+		6E27EEF815C6806A00B36A2A /* beach3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach3.jpg; sourceTree = "<group>"; };
+		6E27EEF915C6806A00B36A2A /* beach2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach2.jpg; sourceTree = "<group>"; };
+		6E27EEFA15C6806A00B36A2A /* beach1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach1.jpg; sourceTree = "<group>"; };
+		6E27EF0215C6827A00B36A2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6E27EF0615C69C1700B36A2A /* mask2a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask2a.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E27EED415C6801500B36A2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E27EF0315C6827A00B36A2A /* QuartzCore.framework in Frameworks */,
+				6E27EEDC15C6801500B36A2A /* UIKit.framework in Frameworks */,
+				6E27EEDE15C6801500B36A2A /* Foundation.framework in Frameworks */,
+				6E27EEE015C6801500B36A2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E27EECC15C6801500B36A2A = {
+			isa = PBXGroup;
+			children = (
+				6E27EF0215C6827A00B36A2A /* QuartzCore.framework */,
+				6E27EEE115C6801500B36A2A /* ScrollerMask */,
+				6E27EEDA15C6801500B36A2A /* Frameworks */,
+				6E27EED815C6801500B36A2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E27EED815C6801500B36A2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E27EED715C6801500B36A2A /* ScrollerMask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E27EEDA15C6801500B36A2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E27EEDB15C6801500B36A2A /* UIKit.framework */,
+				6E27EEDD15C6801500B36A2A /* Foundation.framework */,
+				6E27EEDF15C6801500B36A2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E27EEE115C6801500B36A2A /* ScrollerMask */ = {
+			isa = PBXGroup;
+			children = (
+				6E27EEEA15C6801500B36A2A /* NOKAppDelegate.h */,
+				6E27EEEB15C6801500B36A2A /* NOKAppDelegate.m */,
+				6E27EEED15C6801500B36A2A /* NOKViewController.h */,
+				6E27EEEE15C6801500B36A2A /* NOKViewController.m */,
+				6E27EEF015C6801500B36A2A /* NOKViewController.xib */,
+				6E27EEE215C6801500B36A2A /* Supporting Files */,
+			);
+			path = ScrollerMask;
+			sourceTree = "<group>";
+		};
+		6E27EEE215C6801500B36A2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E27EEF815C6806A00B36A2A /* beach3.jpg */,
+				6E27EF0615C69C1700B36A2A /* mask2a.png */,
+				6E27EEF915C6806A00B36A2A /* beach2.jpg */,
+				6E27EEFA15C6806A00B36A2A /* beach1.jpg */,
+				6E27EEE315C6801500B36A2A /* ScrollerMask-Info.plist */,
+				6E27EEE415C6801500B36A2A /* InfoPlist.strings */,
+				6E27EEE715C6801500B36A2A /* main.m */,
+				6E27EEE915C6801500B36A2A /* ScrollerMask-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E27EED615C6801500B36A2A /* ScrollerMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E27EEF515C6801500B36A2A /* Build configuration list for PBXNativeTarget "ScrollerMask" */;
+			buildPhases = (
+				6E27EED315C6801500B36A2A /* Sources */,
+				6E27EED415C6801500B36A2A /* Frameworks */,
+				6E27EED515C6801500B36A2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollerMask;
+			productName = ScrollerMask;
+			productReference = 6E27EED715C6801500B36A2A /* ScrollerMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E27EECE15C6801500B36A2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NOK;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Grupa Nokaut S.A.";
+			};
+			buildConfigurationList = 6E27EED115C6801500B36A2A /* Build configuration list for PBXProject "ScrollerMask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E27EECC15C6801500B36A2A;
+			productRefGroup = 6E27EED815C6801500B36A2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E27EED615C6801500B36A2A /* ScrollerMask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E27EED515C6801500B36A2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E27EEE615C6801500B36A2A /* InfoPlist.strings in Resources */,
+				6E27EEF215C6801500B36A2A /* NOKViewController.xib in Resources */,
+				6E27EEFB15C6806A00B36A2A /* beach3.jpg in Resources */,
+				6E27EEFC15C6806A00B36A2A /* beach2.jpg in Resources */,
+				6E27EEFD15C6806A00B36A2A /* beach1.jpg in Resources */,
+				6E27EF0715C69C1700B36A2A /* mask2a.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E27EED315C6801500B36A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E27EEE815C6801500B36A2A /* main.m in Sources */,
+				6E27EEEC15C6801500B36A2A /* NOKAppDelegate.m in Sources */,
+				6E27EEEF15C6801500B36A2A /* NOKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E27EEE415C6801500B36A2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E27EEE515C6801500B36A2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E27EEF015C6801500B36A2A /* NOKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E27EEF115C6801500B36A2A /* en */,
+			);
+			name = NOKViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E27EEF315C6801500B36A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6E27EEF415C6801500B36A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E27EEF615C6801500B36A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollerMask/ScrollerMask-Prefix.pch";
+				INFOPLIST_FILE = "ScrollerMask/ScrollerMask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E27EEF715C6801500B36A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollerMask/ScrollerMask-Prefix.pch";
+				INFOPLIST_FILE = "ScrollerMask/ScrollerMask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E27EED115C6801500B36A2A /* Build configuration list for PBXProject "ScrollerMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E27EEF315C6801500B36A2A /* Debug */,
+				6E27EEF415C6801500B36A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E27EEF515C6801500B36A2A /* Build configuration list for PBXNativeTarget "ScrollerMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E27EEF615C6801500B36A2A /* Debug */,
+				6E27EEF715C6801500B36A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E27EECE15C6801500B36A2A /* Project object */;
+}
